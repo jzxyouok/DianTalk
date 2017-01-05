@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="TopTitle" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="91.0" prefWidth="1000.0" stylesheets="@MyUI.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.TopTitleControl">
+   <children>
+      <VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="93.0" prefWidth="1000.0" style="-fx-background-color: f2f4f9; -fx-background-radius:10; -fx-padding: 0  0 0 30;">
+         <children>
+          
+                           <Circle fx:id="closeStage" fill="#ff665e" onMouseClicked="#onMouseClickedCloseStage" onMouseEntered="#onMouseEnteredCloseStage" onMouseExited="#onMouseExitedCloseStage" radius="12.0" stroke="TRANSPARENT" strokeType="INSIDE" translateY="35.0">
+                  <cursor>
+                     <Cursor fx:constant="DEFAULT" />
+                  </cursor>
+               </Circle>
+               <Circle fx:id="MinStage" fill="#ffbd2e" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#onMouseClickedMinStage" radius="12.0" stroke="TRANSPARENT" strokeType="INSIDE" translateX="40.0" translateY="11.0" />
+               <Circle fx:id="MaxStage" fill="#37dd0a" onMouseClicked="#onMouseClickedMaxStage" radius="12.0" smooth="false" stroke="TRANSPARENT" strokeType="INSIDE" translateX="80.0" translateY="-13.0" />
+               <TextField fx:id="Search" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 20;" translateX="150.0" translateY="-44.0">
+               <tooltip>
+                  <Tooltip text="好友" />
+               </tooltip>
+            </TextField>
+         </children>
+          	<opaqueInsets>
+            	<Insets />
+         	</opaqueInsets>
+         	<cursor>
+            	<Cursor fx:constant="DEFAULT" />
+         	</cursor>
+          
+            
+               
+            </VBox>
+      <ImageView fx:id="selectMessage" fitHeight="40.0" fitWidth="40.0" onMouseClicked="#onMouseClickedMessage" pickOnBounds="true" preserveRatio="true" translateX="450.0" translateY="-75.0">
+         <image>
+            <Image url="@../images/message-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="selectFriend" fitHeight="40.0" fitWidth="40.0" onMouseClicked="#onMouseClickedFriend" pickOnBounds="true" preserveRatio="true" translateX="550.0" translateY="-115.0">
+         <image>
+            <Image url="@../images/friend-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="selectApp" fitHeight="40.0" fitWidth="40.0" onMouseClicked="#onMouseClickedApp" pickOnBounds="true" preserveRatio="true" translateX="650.0" translateY="-155.0">
+         <image>
+            <Image url="@../images/app-icon.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="ico" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="56.0" prefWidth="60.0" style="-fx-background-image: url(&quot;http://api.kilingzhang.com/diantalk/diantalk/2015551439.jpg&quot;); -fx-background-size: 60;" translateX="900.0" translateY="-200.0">
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="name" prefHeight="18.0" prefWidth="96.0" text="张铃崎，您好" translateX="890.0" translateY="-199.0">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      	  
+      <Label fx:id="msg" text="您有新的短信消息请注意查收" translateX="700.0" translateY="-258.0">
+         <tooltip>
+            <Tooltip fx:id="msgTip" text="林滨上线了" />
+         </tooltip>
+      </Label>
+      <Label fx:id="PalyMusciLable" text="暂停" translateX="389.0" translateY="-235.0" />
+      <Label fx:id="MusicLable" text="光追いかけて 正在播放中---" translateX="200.0" translateY="-250.0" />
+      <Label fx:id="CloseMusicLable" text="关闭音乐" translateX="424.0" translateY="-265.0" />
+      <Slider fx:id="Volume" max="1.0" value="0.1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="14.0" prefWidth="189.0" translateX="491.0" translateY="-277.0" />
+   </children>
+</VBox>
