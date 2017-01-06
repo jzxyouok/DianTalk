@@ -49,6 +49,7 @@
 * [Github](https://codeload.github.com/slight-sky/DianTalk/zip/master "DianTalk")     
 * [客户端下载(免安装)](http://diantalk.kilingzhang.com/DianTalk.exe "下载")  
 * [客户端下载（安装版）](http://diantalk.kilingzhang.com/setup.exe "下载")    
+* [服务端下载（免安版）](http://diantalk.kilingzhang.com/Server.exe "下载") 
  
 ##License  
 
