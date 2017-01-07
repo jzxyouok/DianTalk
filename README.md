@@ -31,8 +31,8 @@
 	* 查成绩
 	* 查课表
 	* 考试安排
-	* 查同学（暂未开放----主要是最近网络经常抽风）
-	* 查空教室 
+	* ~~查同学（暂未开放----主要是最近网络经常抽风）~~
+	* ~~查空教室~~ 
 
 ##UI 
 
@@ -49,7 +49,7 @@
 * [Github](https://codeload.github.com/slight-sky/DianTalk/zip/master "DianTalk")     
 * [客户端下载(免安装)](http://diantalk.kilingzhang.com/DianTalk.exe "下载")  
 * [客户端下载（安装版）](http://diantalk.kilingzhang.com/setup.exe "下载")    
-* [服务端下载（免安版）](http://diantalk.kilingzhang.com/Server.exe "下载")
+* ~~[服务端下载（免安版）](http://diantalk.kilingzhang.com/Server.exe "下载")~~
 * [服务端下载（jar版）](http://diantalk.kilingzhang.com/DianTalkServer.jar "下载")
  
 ##License  
