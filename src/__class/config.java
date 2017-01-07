@@ -12,7 +12,7 @@ public class config {
 	/**
 	 * 
 	 */
-	public static String Parme = "?role=2015551439&hash=902072ba0ffac7a1098aa508dd6a704c&";
+	public static String Parme = "?role=&hash=&";
 	public config() {
 		// TODO Auto-generated constructor stub
 	}
