@@ -64,7 +64,7 @@ public class DB {
 		String url="jdbc:mysql://localhost:3306/diantalk?characterEncoding=UTF-8";    //JDBC的URL    
         try {
         	
-            conn = DriverManager.getConnection(url,    "root","wxhxa.666Z");
+            conn = DriverManager.getConnection(url,    "root","");
             stmt = conn.createStatement();
             System.out.println("成功连接到数据库！");
             String sql = "SELECT * FROM config WHERE name = 'DianTalk' ";
