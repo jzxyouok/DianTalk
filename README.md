@@ -51,6 +51,10 @@
 * [客户端下载（安装版）](http://diantalk.kilingzhang.com/setup.exe "下载")    
 * ~~[服务端下载（免安版）](http://diantalk.kilingzhang.com/Server.exe "下载")~~
 * [服务端下载（jar版）](http://diantalk.kilingzhang.com/DianTalkServer.jar "下载")
+
+
+##tips 
+刚刚学习java，线程什么的写的都不是很好，javafx的mvc思想由于刚刚入手，项目中也没有很好的利用，如果以后有时间，一定要改成我心中的聊天软件。
  
 ##License  
 
